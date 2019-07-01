@@ -1,4 +1,4 @@
-package com.cody.learning;
+package com.cody.learning.controller;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;

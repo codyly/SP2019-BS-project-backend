@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @EnableAutoConfiguration
 @ComponentScan
-@ComponentScan("com.cody.learning.util")
-@ComponentScan("com.cody.learning.components")
-@ComponentScan("com.cody.learning.dbmanager")
+@ComponentScan("com.cody.learning.*")
 
 public class LearningApplication {
     public static void main(String[] args) {
